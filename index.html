@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Homework 14</title>
+</head>
+
+<body>
+    <h1 class="text-primary">Server.js</h1>
+    <p class="text-danger">Server.js sets up the connection to our database and initailizes all required dependencies. This is the app's
+        starting point.</p>
+
+    <h1 class="text-primary">Config</h1>
+    <h2 class="text-info">Middleware</h2>
+    <h3 class="text-warning">isAuthenticated.js</h3>
+    <p class="text-danger">isAuthenticated.js checks to make sure that the user is logged in.  If the the user is not logged in, the page will redirect to the login page.</p>
+
+    <h3 class="text-warning">Config.json</h3>
+    <p class="text-danger">Config.json store the credentials to log into mysql and use the database.</p>
+    <h3 class="text-warning">Passport.js</h3>
+    <p class="text-danger">Passport.js tells passport that we will be logging in with an email and password.  This is then exported as "passport"</p>
+  
+
+
+
+    <h1 class="text-primary">Models</h1>
+    <h3 class="text-warning">index.js</h3>
+    <p class="text-danger">Index.js collects all models from the directory to create tables in database </p>
+    <h3 class="text-warning">user.js</h3>
+    <p class="text-danger">User.js contains the models for the user table.</p>
+
+    <h1 class="text-primary">Public</h1>
+    <h3 class="text-warning">Login.html</h3>
+    <p class="text-danger">Login.html displays the login page</p>
+    <h3 class="text-warning">Members.html</h3>
+    <p class="text-danger">Members.html displays all members page</p>
+    <h3 class="text-warning">Signup.html</h3>
+    <p class="text-danger">Signup.html displays the signup page</p>
+
+
+    <h2 class="text-info">js</h2>
+    <h3 class="text-warning">login.js</h3>
+    <p class="text-danger">Login.js handles unsername and password input using post method.  </p>
+    <h3 class="text-warning">Members.js</h3>
+    <p class="text-danger">Memebers.js uses a get function to display all members to html page.  </p>
+    <h3 class="text-warning">Signup.js</h3>
+    <p class="text-danger">Signup.js uses a post function to take a new username and password into the database.  </p>
+
+    <h2 class="text-info">stylesheets</h2>
+    <h3 class="text-warning">style.css</h3>
+    <p class="text-danger">Stylesheet for html pages</p>
+
+    <h1 class="text-primary">Routes</h1>
+    <h3 class="text-warning">api-routes.js</h3>
+    <p class="text-danger">api-routes.js handles which api routes are hit depending on the function being called.  </p>
+    <h3 class="text-warning">html-routes.js</h3>
+    <p class="text-danger">Html-routes.js handles which html page is served depending on which api route is hit.  </p>
+
+
+</body>
+
+</html>
